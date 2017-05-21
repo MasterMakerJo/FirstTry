@@ -1,0 +1,51 @@
+﻿Build started 2016/8/20 1:23:55.
+     1>Project "E:\DouDiZhu\TestFile\2016_8_20\Project1\Project1.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (8_19.vcxproj, Project1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         F:\Program Files\VS2013ENG\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include" /I"E:\DouDiZhu\TestFile\gabime-spdlog-4fcde3b\include\spdlog" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt BoardMessageControl.cpp CallNum.cpp CardsInfo.cpp CardsValue.cpp DouDzMain.cpp MonteCarloSearchEngine.cpp PokerModelAnalysis.cpp RecommendCards.cpp SplitCard.cpp
+         RecommendCards.cpp
+     1>c:\program files (x86)\microsoft sdks\windows\v7.1a\include\sal_supp.h(57): warning C4005: '__useHeader' : macro redefinition
+                 f:\program files\vs2013eng\vc\include\sal.h(2886) : see previous definition of '__useHeader'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.1a\include\specstrings_supp.h(77): warning C4005: '__on_failure' : macro redefinition
+                 f:\program files\vs2013eng\vc\include\sal.h(2896) : see previous definition of '__on_failure'
+     1>e:\doudizhu\testfile\2016_8_20\project1\recommendcards.cpp(687): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 e:\doudizhu\testfile\2016_8_20\project1\recommendcards.cpp(620) : definition of 'i' ignored
+                 e:\doudizhu\testfile\2016_8_20\project1\recommendcards.cpp(345) : definition of 'i' used
+     1>e:\doudizhu\testfile\2016_8_20\project1\recommendcards.cpp(782): warning C4101: 'j' : unreferenced local variable
+     1>e:\doudizhu\testfile\2016_8_20\project1\recommendcards.cpp(1301): warning C4101: 'dan' : unreferenced local variable
+     1>e:\doudizhu\testfile\2016_8_20\project1\recommendcards.cpp(1574): warning C4101: 'iTemp' : unreferenced local variable
+     1>e:\doudizhu\testfile\2016_8_20\project1\recommendcards.cpp(1574): warning C4101: 'k' : unreferenced local variable
+     1>e:\doudizhu\testfile\2016_8_20\project1\recommendcards.cpp(1574): warning C4101: 'j' : unreferenced local variable
+     1>e:\doudizhu\testfile\2016_8_20\project1\recommendcards.cpp(1688): warning C4101: 'iTmpCards' : unreferenced local variable
+     1>e:\doudizhu\testfile\2016_8_20\project1\recommendcards.cpp(1689): warning C4101: 'iTypeCount' : unreferenced local variable
+         MonteCarloSearchEngine.cpp
+     1>c:\program files (x86)\microsoft sdks\windows\v7.1a\include\sal_supp.h(57): warning C4005: '__useHeader' : macro redefinition
+                 f:\program files\vs2013eng\vc\include\sal.h(2886) : see previous definition of '__useHeader'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.1a\include\specstrings_supp.h(77): warning C4005: '__on_failure' : macro redefinition
+                 f:\program files\vs2013eng\vc\include\sal.h(2896) : see previous definition of '__on_failure'
+     1>e:\doudizhu\testfile\2016_8_20\project1\montecarlosearchengine.cpp(439): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         SplitCard.cpp
+         PokerModelAnalysis.cpp
+         DouDzMain.cpp
+         CardsValue.cpp
+         CardsInfo.cpp
+         CallNum.cpp
+         BoardMessageControl.cpp
+       Link:
+         F:\Program Files\VS2013ENG\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\DouDiZhu\TestFile\2016_8_20\Debug\OKDouDiZhu.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\DouDiZhu\TestFile\2016_8_20\Debug\OKDouDiZhu.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\DouDiZhu\TestFile\2016_8_20\Debug\OKDouDiZhu.lib" /MACHINE:X86 Debug\BoardMessageControl.obj
+         Debug\CallNum.obj
+         Debug\CardsInfo.obj
+         Debug\CardsValue.obj
+         Debug\DouDzMain.obj
+         Debug\MonteCarloSearchEngine.obj
+         Debug\PokerModelAnalysis.obj
+         Debug\RecommendCards.obj
+         Debug\SplitCard.obj
+         Project1.vcxproj -> E:\DouDiZhu\TestFile\2016_8_20\Debug\OKDouDiZhu.exe
+     1>Done Building Project "E:\DouDiZhu\TestFile\2016_8_20\Project1\Project1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.04
